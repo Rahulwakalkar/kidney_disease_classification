@@ -1,0 +1,13 @@
+prefix=D:/kidney_disease_classification/kidney_disease_classification/kidney/Library
+exec_prefix=D:/kidney_disease_classification/kidney_disease_classification/kidney/Library
+libdir=D:/kidney_disease_classification/kidney_disease_classification/kidney/Library/lib
+sharedlibdir=D:/kidney_disease_classification/kidney_disease_classification/kidney/Library/lib
+includedir=D:/kidney_disease_classification/kidney_disease_classification/kidney/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

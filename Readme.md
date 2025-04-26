@@ -15,10 +15,10 @@ How to run?
 STEPS:
 Clone the repository
 
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+https://github.com/Rahulwakalkar/kidney_disease_classification/tree/main
 STEP 01- Create a conda environment after opening the repository
-conda create -n cnncls python=3.8 -y
-conda activate cnncls
+conda create -n kidney python=3.10 -y
+conda activate kidney
 STEP 02- install the requirements
 pip install -r requirements.txt
 # Finally run the following command
