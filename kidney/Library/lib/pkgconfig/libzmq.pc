@@ -1,0 +1,12 @@
+prefix=d:/kidney_disease_classification/kidney_disease_classification/kidney/Library
+exec_prefix=d:/kidney_disease_classification/kidney_disease_classification/kidney/Library
+libdir=d:/kidney_disease_classification/kidney_disease_classification/kidney/Library/lib
+includedir=d:/kidney_disease_classification/kidney_disease_classification/kidney/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
